@@ -11,7 +11,7 @@ body {
     border: 2px solid #B57EDC;
     border-radius: 18px;
     box-shadow: 0 4px 16px rgba(75,0,110,0.12);
-    max-width: 350px;
+    width: 500px; /* Increased from default or previous value */
     margin: 60px auto;
     padding: 2em 1.5em;
     font-family: 'Montserrat', Arial, sans-serif;
@@ -32,6 +32,17 @@ h2 {
 }
 
 p {
-    font-size: 1.3em;
+    font-size: 1.0em;
     line-height: 1.6;
+}
+
+.profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* Remove bullets from all unordered lists */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align:center
 }
